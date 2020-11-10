@@ -41,7 +41,7 @@ public class ContactInfoController {
 			}
 			else {
 				//model.addAttribute("sucMsg", "Contact saved");
-				attributes.addFlashAttribute("sucMsg", "Contact saved!");
+				attributes.addFlashAttribute("sucMsg", "Contact saved! 1");
 			}
 		}else {
 			attributes.addFlashAttribute("errMsg", "Failed to save contact.");
